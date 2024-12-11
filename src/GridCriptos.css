@@ -1,0 +1,34 @@
+.cripto-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas por defecto */
+  grid-template-rows: repeat(20, 1fr); /* 20 filas por defecto */
+  gap: 20px;
+}
+
+@media (max-width: 1440px) {
+  .cripto-container {
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas para pantallas más pequeñas */
+    grid-template-rows: repeat(25, 1fr); /* 30 filas para pantallas más pequeñas */
+  }
+}
+/* Consulta de medios para pantallas más pequeñas (ajusta según tus necesidades) */
+@media (max-width: 1050px) {
+  .cripto-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas para pantallas más pequeñas */
+    grid-template-rows: repeat(34, 1fr); /* 30 filas para pantallas más pequeñas */
+  }
+}
+
+/* Otra consulta de medios para pantallas aún más pequeñas (ajusta según tus necesidades) */
+@media (max-width: 780px) {
+  .cripto-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas para pantallas aún más pequeñas */
+    grid-template-rows: repeat(50, 1fr); /* 40 filas para pantallas aún más pequeñas */
+  }
+}
+@media (max-width: 500px) {
+  .cripto-container {
+    grid-template-columns: repeat(1, 1fr); /* 2 columnas para pantallas aún más pequeñas */
+    grid-template-rows: repeat(100, 1fr); /* 40 filas para pantallas aún más pequeñas */
+  }
+}

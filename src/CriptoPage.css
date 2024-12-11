@@ -1,0 +1,109 @@
+.main-container-criptopage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #170016;
+  color: #ffffff;
+}
+
+.main-container-criptopage h1 {
+  margin-top: 2rem;
+  margin-bottom: 0.2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: transparent;
+  background-image: linear-gradient(to right, #8800ff, #ff0066);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.main-container-criptopage h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.cripto-info-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cripto-info-container p {
+  font-size: 1rem;
+}
+
+.cripto-info-container span {
+  color: #b111ddaa;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .cripto-info-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.history-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+}
+
+.history-container::-webkit-scrollbar {
+  width: 6px; /* Ajusta el ancho según tu preferencia */
+}
+
+.history-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #36033a;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+th, td {
+  border: 1px solid #36033a;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #280027;
+}
+
+tbody tr:hover {
+  background-color: #4a0047;
+  cursor: pointer;
+}
+
+.label {
+  color: #ffffff;
+}
+
+.price {
+  color: #b111dd;
+  font-weight: bold;
+}

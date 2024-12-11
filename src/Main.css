@@ -1,0 +1,30 @@
+html{
+  box-sizing: border-box;
+  font-size: 16px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*,*:before, *:after{
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, p, div, ul, li, a, span, table, tr, td{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background: #170016; /* Degradado de negro a morado oscuro */
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+

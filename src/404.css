@@ -1,0 +1,23 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% del alto de la ventana */
+}
+
+.error-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.error-container span {
+  font-size: 1rem;
+  color: #888888;
+}
+
+.error-container img{
+  width: 100%; /* Hacer la imagen 100% del ancho del contenedor */
+  max-width: 300px; /* Establecer un ancho máximo para que la imagen no se vuelva demasiado grande en pantallas grandes */
+  opacity: 0.8; /* Ajustar la opacidad (0 es completamente transparente, 1 es completamente opaco) */
+}

@@ -1,0 +1,43 @@
+.menu-container {
+  width: 100%;
+  background-color: #170016;
+  padding: 20px 0; /* Ajusta según tus preferencias */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container{
+  margin-left: 4rem;
+}
+.logo-container img {
+  width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+}
+
+.links-container{
+  margin-right: 4rem;
+}
+.links-container ul {
+  list-style: none;
+  display: flex;
+  margin: 0; /* Elimina el margen por defecto de la lista */
+}
+
+.links-container li {
+  margin-right: 20px; /* Espaciado entre las listas (anclas) */
+}
+
+.links-container li:last-child {
+  margin-right: 0; /* Elimina el margen del último elemento */
+}
+
+.links-container li a {
+  text-decoration: none;
+  color: #fff; /* Color del texto de las anclas */
+  font-weight: bold;
+  font-size: 16px; /* Tamaño del texto de las anclas */
+}
+
+.links-container li a:hover {
+  color: #7a0882; /* Cambia el color al pasar el ratón sobre las anclas */
+}
